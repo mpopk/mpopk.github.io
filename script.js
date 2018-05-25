@@ -29,7 +29,7 @@ $(document).ready(function() {
   }
 
   function getAllTasks() {
-    var requestUrl = apiRoot + 'getTasks';
+    var requestUrl = apiRootAll + 'getTasks';
 
     $.ajax({
       url: requestUrl,
